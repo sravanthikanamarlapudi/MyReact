@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './Components/App';
+// import Navbar from './Project/NavBar';
+// import ObjectIterartor from'./StateExample/Example3'
+// import FirstState from './StateExample/Example1'
+// import Effect from'./UseEFfect/UseEffect1'
+// const App =require("./Components.js/App").default
+// ReactDOM.render(<FunctionComponent title={"Heyyy React Styling"} />
+// ,  document.getElementById('root')
+// );
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render(<App/>
+,  document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
